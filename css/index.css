@@ -61,10 +61,6 @@ img {
     width: 35%;
     margin: 10%;
 }	
-img:hover {	
-    opacity: 80%;
-    	
-}	
 
 /*HEADER STYLES */
 header{
@@ -105,9 +101,7 @@ nav span{
     height:60vh;
     margin:5% 0;
 }	
-.title-container div:hover {	
-    opacity: 80%;	
-}	
+
 .title-container hr{
     width:80%;
 }
@@ -165,4 +159,5 @@ ul {
         flex-direction: column;
         align-items: center;
     }
+    
 }
