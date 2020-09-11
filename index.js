@@ -309,6 +309,9 @@ function addArtist(myArray, name, years, genre, nationality, bio, paintings){
 
 addArtist(artists, "Erick Gonzalez", "1980-present", "Modern", "American", "Born in San Diego, California, studied French, economics and then fell in love with coding. He currently resides in Atlanta, GA with his son and two cats.", 0);
 
+
+
+
  // issues with number 7 otherwise if I leave name in
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
@@ -329,7 +332,7 @@ function lotsOfArt(myArray){
       artistsName = myArray[i].name;
       busyArtists.push(artistsName);
     } 
-  } console.log(busyArtists)  
+  } return busyArtists;
 }
 
 lotsOfArt(artists);
